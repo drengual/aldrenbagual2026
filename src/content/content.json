@@ -1,0 +1,449 @@
+{
+  "meta": {
+    "name": "Aldren Bagual",
+    "role": "Full-Stack Developer • Systems-Oriented Team Lead",
+    "location": "Philippines (Remote-ready)",
+    "email": "aldrenbagual@outlook.com",
+    "links": [
+      { "label": "GitHub", "href": "https://github.com/drengual" },
+      {
+        "label": "LinkedIn",
+        "href": "https://www.linkedin.com/in/aldrenbagual"
+      },
+      { "label": "Resume", "href": "/resume.pdf" },
+      { "label": "Experience", "href": "/#experience" }
+    ]
+  },
+  "hero": {
+    "email": "aldrenbagual@outlook.com",
+    "headline": "I architect and maintain production web systems teams can depend on.",
+    "subheadline": "Systems-oriented full-stack developer focused on clarity, maintainability, and real-world delivery, from planning to production.",
+    "portrait": {
+      "src": "/images/portrait.jpg",
+      "alt": "Portrait of Aldren Bagual"
+    },
+    "primaryCta": { "label": "View Case Studies", "href": "#work" },
+    "secondaryCta": { "label": "Contact Me", "href": "#contact" }
+  },
+  "credibility": {
+    "title": "Currently leading web & system delivery",
+    "body": "I lead architecture and delivery of business-critical websites and internal systems, define requirements, ship production releases, and serve as the primary technical point of contact for stakeholders.",
+    "bullets": [
+      "Led planning, architecture, and development of multiple company websites",
+      "Defined PRDs and technical specifications with stakeholders",
+      "Architected scalable frontend + headless CMS integrations",
+      "Deployed and maintained production sites (VPS, releases, reliability)",
+      "Coordinated implementation, task tracking, and quality reviews"
+    ]
+  },
+  "expertise": {
+    "title": "Core expertise",
+    "areas": [
+      {
+        "title": "Architecture & Delivery",
+        "body": "Planning, structuring, and shipping scalable web systems aligned with business timelines and stakeholder expectations."
+      },
+      {
+        "title": "Headless & CMS Systems",
+        "body": "Designing content workflows that empower non-technical teams without compromising frontend performance or maintainability."
+      },
+      {
+        "title": "Production Reliability",
+        "body": "Deployments, VPS configuration, CI/CD workflows, and long-term system stability in real-world environments."
+      }
+    ]
+  },
+  "experience": {
+    "title": "Work experience",
+    "roles": [
+      {
+        "company": "Z Aviation Consulting",
+        "title": "IT Developer / Team Lead",
+        "date": "Aug 2025 — Present",
+        "highlights": [
+          "Led planning, architecture, and delivery of multiple company websites using WordPress and headless CMS strategy",
+          "Defined PRDs and technical specifications through stakeholder discussions",
+          "Architected Next.js + Tailwind with headless WordPress and Supabase integrations",
+          "Deployed and maintained sites on VPS infrastructure; handled production releases and reliability",
+          "Primary technical point of contact for stakeholders (support, troubleshooting, explanations)"
+        ]
+      },
+      {
+        "company": "SmartRetry (Fintech Startup)",
+        "title": "Web Platform Engineer (Project-Based)",
+        "date": "Sep 2025 — Dec 2025",
+        "highlights": [
+          "Built and maintained a production-grade fintech marketing platform (Next.js, TypeScript, Tailwind, Headless WordPress)",
+          "Implemented CMS-driven directories, search, filtering, FAQs, glossary modules, and utilities",
+          "Owned platform lifecycle from architecture planning through deployment and iterative improvements"
+        ]
+      },
+      {
+        "company": "Creaxon, Inc.",
+        "title": "Junior Full Stack Developer",
+        "date": "May 2024 — May 2025",
+        "highlights": [
+          "Supported and maintained 10+ production websites (updates, fixes, post-deploy checks)",
+          "Built and customized WordPress and Shopify sites; handled themes, plugins, configurations",
+          "Managed deployments via Cloudways; collaborated with GitLab workflows"
+        ]
+      },
+      {
+        "company": "Freelance / Project-Based",
+        "title": "Full-Stack Web Developer & Project Manager",
+        "date": "Feb 2023 — Apr 2024",
+        "highlights": [
+          "Led end-to-end delivery across multiple client projects by scoping work, managing timelines, and tracking progress to ship on schedule, while guiding a small dev team through code reviews and mentorship to enforce clean, scalable standards.",
+          "Collaborated directly with clients to translate business needs into clear technical plans and implementation decisions, serving as the primary bridge between stakeholder requirements and final product execution.",
+          "Built 10+ responsive, accessible websites using React and Tailwind CSS with strong cross-device performance, integrating third-party and custom APIs to ensure dynamic functionality and reliable data flow.",
+          "Implemented authentication, real-time updates, and cloud database workflows using Supabase and Node.js, while optimizing release speed through CI/CD via GitHub and Vercel and maintaining collaborative Git branching and PR best practices."
+        ]
+      },
+      {
+        "company": "Campus Library — Cavite State University (CCAT)",
+        "title": "Lead Programmer (Intern)",
+        "date": "Sep 2023 — Jan 2024",
+        "highlights": [
+          "Spearheaded the development of a Python desktop application to monitor library PC usage, automating session tracking and generating usage reports to significantly improve administrative efficiency.",
+          "Translated library staff workflows into technical specifications and designed an intuitive interface using PySimpleGUI, specifically tailored for seamless use by non-technical staff.",
+          "Engineered Excel-based data storage and automated report exports, effectively reducing manual encoding while improving overall record accuracy and data integrity.",
+          "Delivered comprehensive software and hardware support, including troubleshooting, device optimization, and hands-on assistance with staff onboarding and daily library operations."
+        ]
+      }
+    ]
+  },
+  "work": {
+    "title": "Selected Work",
+    "items": [
+      {
+        "title": "Z Aviation Consulting — Multi-site Delivery & Headless Strategy",
+        "outcome": "Led end-to-end delivery across multiple company websites — from stakeholder discovery and PRDs to Figma design systems, development, and VPS production releases.",
+        "image": {
+          "src": "/images/projects/zav.jpg",
+          "alt": "Z Aviation project preview"
+        },
+        "href": "/work/zav-websites"
+      },
+      {
+        "title": "SmartRetry — Headless Fintech Marketing Platform",
+        "outcome": "Architected and delivered a modular, CMS-driven fintech platform built for rapid iteration, maintainability, and scalable expansion under startup constraints.",
+        "image": {
+          "src": "/images/projects/smartretry.jpg",
+          "alt": "SmartRetry project preview"
+        },
+        "href": "/work/smartretry"
+      },
+      {
+        "title": "SOCA — AI-Powered Task Management System",
+        "outcome": "Built a full-stack task manager that uses generative AI to automatically break complex tasks into actionable subtasks, improving clarity and execution flow.",
+        "image": {
+          "src": "/images/projects/soca.jpg",
+          "alt": "SOCA project preview"
+        },
+        "href": "/work/soca"
+      },
+      {
+        "title": "Library Computer Usage Monitoring System",
+        "outcome": "Developed an internal desktop system to track library computer usage by course and export structured Excel reports, improving visibility and admin workflow efficiency.",
+        "image": {
+          "src": "/images/projects/library-monitoring.jpg",
+          "alt": "Library monitoring system project preview"
+        },
+        "href": "/work/library-monitoring"
+      }
+    ]
+  },
+  "how": {
+    "title": "How I work",
+    "intro": "I aim to reduce ambiguity, own outcomes, and build systems that others can confidently maintain.",
+    "principles": [
+      {
+        "title": "Structured clarity",
+        "body": "I translate requirements into simple specs and decision points to prevent rework."
+      },
+      {
+        "title": "Ownership",
+        "body": "I take responsibility beyond implementation — including production behavior and iteration."
+      },
+      {
+        "title": "Maintainability",
+        "body": "I design code and workflows that remain understandable as projects evolve."
+      }
+    ]
+  },
+  "systems": {
+    "title": "Systems & process",
+    "body": "Beyond code, I design workflows and delivery structure that reduce chaos — requirements → execution → release → support — so teams can move with confidence.",
+    "link": { "label": "Read about my process", "href": "/process" }
+  },
+  "tech": {
+    "title": "Technology focus",
+    "items": [
+      "Next.js & TypeScript",
+      "Tailwind CSS",
+      "Headless WordPress (REST API)",
+      "Supabase & PostgreSQL",
+      "Node.js",
+      "Git & CI/CD (GitHub, Vercel)",
+      "VPS Deployments & Production Releases"
+    ]
+  },
+  "about": {
+    "title": "About",
+    "body": "I care about building systems that are reliable, understandable, and actually used. My focus is not just shipping features, but reducing operational friction for teams and stakeholders."
+  },
+  "cta": {
+    "title": "Let's talk",
+    "body": "If you're looking for a reliable developer who can own delivery end-to-end, I'd love to connect.",
+    "buttons": [
+      { "label": "Contact Me", "href": "#contact" },
+      { "label": "View Resume", "href": "/resume.pdf" }
+    ]
+  },
+  "contact": {
+    "title": "Contact",
+    "body": "Email is best. I reply within 24–48 hours.",
+    "emailLabel": "aldrenbagual@outlook.com"
+  },
+  "projects": [
+    {
+      "slug": "smartretry",
+      "title": "SmartRetry — Headless Fintech Marketing Platform",
+      "summary": "Architected and delivered a production-grade fintech marketing platform using a headless CMS and modular frontend system, built for rapid iteration, maintainability, and long-term scalability.",
+      "heroImage": {
+        "src": "/images/projects/smartretry.jpg",
+        "alt": "SmartRetry fintech platform preview"
+      },
+      "video": "",
+      "meta": {
+        "role": "Web Platform Engineer (Contract)",
+        "environment": "Remote Fintech Startup",
+        "duration": "2025",
+        "stack": [
+          "Next.js 15 (App Router)",
+          "TypeScript",
+          "Tailwind CSS",
+          "Headless WordPress (REST)",
+          "Supabase",
+          "Lottie Animations"
+        ]
+      },
+      "links": {
+        "live": "",
+        "repo": ""
+      },
+      "overview": {
+        "scope": "A modular fintech marketing platform with CMS-driven directories, glossary, FAQ systems, structured content modules, and interactive UX components.",
+        "responsibility": "Frontend architecture, CMS integration, structured module development, animation implementation, and production-ready feature delivery."
+      },
+      "problem": "The platform required frequent content updates, structured SEO-driven modules, and complex interactive sections while maintaining performance and developer velocity in a startup environment. The challenge was balancing animation-heavy UX with clean architecture and long-term maintainability.",
+      "constraints": [
+        "Startup timelines with evolving requirements",
+        "Heavy animation requirements without degrading performance",
+        "Headless CMS limitations and content modeling complexity",
+        "Strict type-safety and linting requirements",
+        "Limited development bandwidth"
+      ],
+      "approach": "I designed the platform around a modular, component-driven architecture using Next.js App Router and TypeScript to ensure scalability and clarity. Content was modeled in WordPress as structured post types and consumed via REST endpoints. Interactive and animated sections were implemented using controlled client components to prevent unnecessary re-renders, prioritizing performance and maintainability over visual shortcuts.",
+      "architecture": {
+        "frontend": "Next.js 15 App Router + TypeScript + Tailwind CSS",
+        "cms": "Headless WordPress with structured post types and ACF",
+        "data": "REST-based CMS integration with typed fetch layers",
+        "deployment": "Production-ready hosting with CI/CD workflow"
+      },
+      "execution": [
+        "Implemented CMS-driven payment provider directory with filtering and search",
+        "Built modular FAQ and glossary systems mirroring structured blog architecture",
+        "Developed scroll-driven 'How It Works' section using IntersectionObserver and controlled Lottie animation state",
+        "Structured type-safe data fetching layers for WordPress REST integration",
+        "Designed reusable UI components for consistent spacing, theming, and layout fidelity",
+        "Maintained strict ESLint and TypeScript standards to prevent architectural drift"
+      ],
+      "outcomes": [
+        "Enabled rapid iteration through structured CMS-driven modules",
+        "Reduced developer dependency for routine content updates",
+        "Maintained performance despite animation-heavy UX requirements",
+        "Delivered scalable frontend architecture suitable for future expansion"
+      ],
+      "reflection": "This project reinforced the importance of structuring content models correctly early, as CMS design decisions directly affect frontend complexity. It also highlighted the tradeoff between visual interactivity and architectural clarity — animation must serve usability, not compromise maintainability."
+    },
+    {
+      "slug": "zav-websites",
+      "title": "Z Aviation Consulting — Multi-site Web Delivery & Headless Strategy",
+      "summary": "Led end-to-end delivery of multiple company websites, combining stakeholder discovery, PRDs, design system work, modern frontend architecture, headless CMS integration, and VPS production releases.",
+      "heroImage": {
+        "src": "/images/projects/zav.jpg",
+        "alt": "Z Aviation Consulting websites project preview"
+      },
+      "video": "",
+      "meta": {
+        "role": "IT Developer / Team Lead (Web & System)",
+        "environment": "Company Websites + Internal Systems (Remote)",
+        "duration": "Aug 2025 — Present",
+        "stack": [
+          "Next.js",
+          "TypeScript",
+          "Tailwind CSS",
+          "WordPress (Headless REST)",
+          "Supabase",
+          "VPS Deployments"
+        ]
+      },
+      "links": {
+        "live": "",
+        "repo": ""
+      },
+      "overview": {
+        "scope": "A multi-site web delivery program that covered requirements, UX planning, design system creation, scalable frontend builds, headless CMS integration, deployment, and ongoing production support.",
+        "responsibility": "Owned the delivery lifecycle end-to-end: stakeholder discovery → PRD/specs → UX flows & design system → build → release → support, while coordinating tasks and quality reviews as acting team lead."
+      },
+      "problem": "The organization needed reliable, business-critical websites delivered on real timelines, with a structure that supports ongoing iteration, stakeholder clarity, and maintainable long-term ownership — not one-off builds.",
+      "constraints": [
+        "Multiple sites delivered in phases aligned to business timelines",
+        "Non-technical stakeholders required clear requirements and predictable delivery",
+        "Production reliability and release coordination on VPS infrastructure",
+        "Balancing speed with long-term maintainability across multiple codebases"
+      ],
+      "approach": "I ran delivery like a system: clarify requirements early, document decisions, create reusable design and UI patterns, then implement with a scalable architecture that supports future changes. I prioritized reducing ambiguity for stakeholders while keeping the technical foundation clean and maintainable for long-term iteration.",
+      "architecture": {
+        "frontend": "Next.js + Tailwind CSS with reusable UI patterns",
+        "cms": "WordPress (headless) for structured content workflows",
+        "data": "Supabase integration for selected backend workflows where needed",
+        "deployment": "VPS hosting with production release discipline and ongoing maintenance"
+      },
+      "execution": [
+        "Led stakeholder discovery and documented requirements, PRDs, and technical specifications",
+        "Designed user flows, wireframes, and a design system in Figma to align UI/UX with business goals",
+        "Built and delivered multiple websites using WordPress and a headless CMS strategy for phased rollout",
+        "Coordinated implementation work, task tracking, and code reviews to maintain quality and consistency",
+        "Deployed and maintained production websites on VPS infrastructure, including server configuration and release handling",
+        "Provided ongoing technical support and troubleshooting as the primary point of contact for stakeholders"
+      ],
+      "outcomes": [
+        "Delivered multiple production websites aligned to business timelines through phased execution",
+        "Improved stakeholder clarity through documented PRDs, specs, and consistent delivery structure",
+        "Established a scalable foundation using modern frontend architecture and headless CMS workflows",
+        "Strengthened production reliability through disciplined VPS deployments and release management"
+      ],
+      "reflection": "This work reinforced that multi-site delivery succeeds when the workflow is designed as deliberately as the code. Clear requirements, reusable UI patterns, and release discipline reduce chaos and create compounding speed over time."
+    },
+    {
+      "slug": "soca",
+      "title": "SOCA — AI-Powered Task Management System",
+      "summary": "A full-stack task management web application that leverages generative AI to automatically break complex tasks into actionable subtasks, reducing cognitive overload and improving execution clarity.",
+      "heroImage": {
+        "src": "/images/projects/soca.jpg",
+        "alt": "SOCA AI-powered task management system preview"
+      },
+      "video": "https://drive.google.com/drive/folders/1YoTa4k7pIBPcGxaviBDypKibko2x6KB2",
+      "meta": {
+        "role": "Full-Stack Developer",
+        "environment": "Independent Project",
+        "duration": "2024",
+        "stack": [
+          "PHP",
+          "MySQL",
+          "JavaScript",
+          "Bootstrap",
+          "Cohere API",
+          "LLaMA"
+        ]
+      },
+      "links": {
+        "live": "",
+        "repo": ""
+      },
+      "overview": {
+        "scope": "A web-based task management system that allows users to create, manage, and complete daily tasks, enhanced with AI-powered subtask generation.",
+        "responsibility": "End-to-end architecture, database design, authentication flow, AI integration, and frontend implementation."
+      },
+      "problem": "Users often struggle to execute large or vague tasks because they lack structure and clarity. Traditional task managers rely entirely on manual task breakdown, which can increase friction and procrastination.",
+      "constraints": [
+        "Limited infrastructure (PHP + MySQL stack)",
+        "API usage limits and response latency from AI providers",
+        "Need to maintain responsive UI while handling async AI calls",
+        "Authentication and data isolation per user"
+      ],
+      "approach": "I designed SOCA as a structured task manager first, then layered AI capabilities on top. The system stores core tasks in a relational database and, upon user request, calls the generative API to intelligently chunk large tasks into smaller actionable subtasks. I prioritized keeping AI generation optional and non-blocking to maintain usability even if external API calls fail.",
+      "architecture": {
+        "frontend": "HTML, Vanilla CSS, Bootstrap, JavaScript",
+        "cms": "N/A (Custom-built UI)",
+        "data": "MySQL relational database",
+        "deployment": "Traditional PHP hosting environment"
+      },
+      "execution": [
+        "Designed relational database schema for users, tasks, and subtasks",
+        "Implemented secure user authentication with Gmail login integration",
+        "Built full CRUD functionality for tasks (create, edit, delete, mark as complete)",
+        "Integrated Cohere API and LLaMA-based models for automated subtask generation",
+        "Handled asynchronous AI responses and dynamically updated UI without full page reload",
+        "Ensured user-level task isolation and secure data handling"
+      ],
+      "outcomes": [
+        "Reduced cognitive load by automatically converting large goals into manageable subtasks",
+        "Improved task clarity and execution structure for end users",
+        "Demonstrated integration of generative AI within a traditional PHP full-stack environment",
+        "Built a functional AI-assisted productivity system from scratch"
+      ],
+      "reflection": "If extending SOCA further, I would refactor the architecture into a more modern framework (e.g., Next.js + API layer), implement rate-limiting and caching for AI responses, and introduce smarter prioritization algorithms based on task metadata."
+    },
+    {
+      "slug": "library-monitoring",
+      "title": "Library Course-Based Computer Usage Monitoring System",
+      "summary": "Designed and built a desktop monitoring system that tracked computer usage by enrolled course, improving resource visibility and administrative efficiency within a university library environment.",
+      "heroImage": {
+        "src": "/images/projects/library-monitoring.jpg",
+        "alt": "Library computer monitoring system preview"
+      },
+      "video": "",
+      "meta": {
+        "role": "Lead Programmer (Intern)",
+        "environment": "University Library — Internal System",
+        "duration": "Sep 2023 — Jan 2024",
+        "stack": [
+          "Python",
+          "PySimpleGUI",
+          "Pandas",
+          "MS Excel",
+          "Desktop Application"
+        ]
+      },
+      "links": {
+        "live": "",
+        "repo": ""
+      },
+      "overview": {
+        "scope": "A desktop-based monitoring system that tracked active computer users by academic course and generated structured usage reports for administrative analysis.",
+        "responsibility": "System design, UI implementation, data modeling, reporting logic, and on-site support."
+      },
+      "problem": "The library lacked structured visibility into computer usage patterns across different academic courses. Monitoring was manual, time-consuming, and prone to record inaccuracies, limiting the administration’s ability to allocate resources effectively.",
+      "constraints": [
+        "On-site infrastructure limitations (desktop-only environment)",
+        "Non-technical staff as primary system users",
+        "Need for reliable Excel-compatible reporting",
+        "Minimal tolerance for system downtime during operating hours"
+      ],
+      "approach": "I approached the project by first mapping the real-world workflow of library staff and identifying bottlenecks in data recording and reporting. The system was designed to simplify user registration tracking while automatically structuring data for export. Usability and clarity were prioritized over technical complexity to ensure seamless adoption by non-technical users.",
+      "architecture": {
+        "frontend": "PySimpleGUI desktop interface",
+        "cms": "N/A (Custom desktop system)",
+        "data": "Structured data handling via Pandas",
+        "deployment": "Local desktop deployment within library environment"
+      },
+      "execution": [
+        "Designed user interface tailored for quick staff input and monitoring",
+        "Implemented structured tracking of users categorized by academic course",
+        "Built automated Excel export functionality using Pandas for reporting",
+        "Optimized data handling to reduce manual encoding and errors",
+        "Provided on-site software and hardware troubleshooting support"
+      ],
+      "outcomes": [
+        "Improved visibility into departmental computer usage trends",
+        "Reduced manual reporting workload for library staff",
+        "Increased record accuracy through structured data capture",
+        "Delivered a practical internal system aligned with operational workflows"
+      ],
+      "reflection": "This project reinforced the importance of aligning technical solutions with real-world operational processes. Designing for non-technical users required clarity and restraint — simplicity proved more valuable than adding advanced features."
+    }
+  ]
+}

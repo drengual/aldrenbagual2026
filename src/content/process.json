@@ -1,0 +1,93 @@
+{
+  "meta": {
+    "title": "Systems & Process",
+    "subtitle": "I design delivery workflows that reduce ambiguity and improve reliability — from requirements → execution → release → support."
+  },
+  "principles": {
+    "title": "What I optimize for",
+    "items": [
+      {
+        "title": "Clarity before code",
+        "body": "I translate goals into scoped requirements and decision points so teams build the right thing with less rework."
+      },
+      {
+        "title": "Ownership end-to-end",
+        "body": "I take responsibility beyond implementation — including production behavior, iteration, and stakeholder clarity."
+      },
+      {
+        "title": "Maintainability",
+        "body": "I build systems and patterns that others can understand, extend, and operate confidently."
+      }
+    ]
+  },
+  "loop": {
+    "title": "My delivery loop",
+    "steps": [
+      {
+        "title": "1) Requirements & alignment",
+        "bullets": [
+          "Clarify goals, constraints, and what “done” means",
+          "Capture scope in a lightweight PRD or spec",
+          "Identify risks early (timeline, dependencies, content, infra)"
+        ]
+      },
+      {
+        "title": "2) Plan the system",
+        "bullets": [
+          "Break work into modules and interfaces",
+          "Define data flows and content models",
+          "Choose the simplest architecture that scales"
+        ]
+      },
+      {
+        "title": "3) Build with structure",
+        "bullets": [
+          "Reusable components and predictable patterns",
+          "Type-safe boundaries and clear responsibilities",
+          "Small, reviewable increments to keep velocity stable"
+        ]
+      },
+      {
+        "title": "4) Release discipline",
+        "bullets": [
+          "Validate key flows before shipping",
+          "Deployment checklists and rollback awareness",
+          "Keep releases repeatable and low-stress"
+        ]
+      },
+      {
+        "title": "5) Support & iteration",
+        "bullets": [
+          "Fix issues quickly and reduce recurring problems",
+          "Improve workflows and docs as the system evolves",
+          "Treat maintenance as part of delivery, not an afterthought"
+        ]
+      }
+    ]
+  },
+  "tooling": {
+    "title": "Tooling & habits that keep work reliable",
+    "items": [
+      {
+        "title": "Documentation that reduces chaos",
+        "body": "Specs, decisions, and handover notes that make work easy to resume and easy to share."
+      },
+      {
+        "title": "Quality checks",
+        "body": "Lint/type safety, quick smoke tests, and reviewable PRs to keep production stable."
+      },
+      {
+        "title": "Stakeholder communication",
+        "body": "Frequent checkpoints, clear timelines, and transparent tradeoffs to prevent surprises."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Want to work together?",
+    "body": "If you need a reliable developer who can own delivery and reduce ambiguity, let’s talk.",
+    "buttons": [
+      { "label": "Contact", "href": "/#contact" },
+      { "label": "View work", "href": "/#work" }
+    ]
+  }
+}
