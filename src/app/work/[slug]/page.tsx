@@ -141,21 +141,13 @@ export default async function Page({
                     <Button href={liveHref} variant="secondary">
                       Live Site
                     </Button>
-                  ) : (
-                    <Button href="#work" variant="ghost">
-                      Live Site (private)
-                    </Button>
-                  )}
+                  ) : null}
 
                   {repoHref ? (
                     <Button href={repoHref} variant="secondary">
                       Repo
                     </Button>
-                  ) : (
-                    <Button href="#work" variant="ghost">
-                      Repo (private)
-                    </Button>
-                  )}
+                  ) : null}
                 </div>
 
                 <div className="mt-8 grid gap-4 sm:grid-cols-2">
@@ -217,7 +209,7 @@ export default async function Page({
                         src={project.heroImage.src}
                         alt={project.heroImage.alt}
                         priority
-                        className="object-cover"
+                        className="object-cover object-top"
                         sizes="(max-width: 1024px) 90vw, 420px"
                         fallback={
                           <div className="relative h-full w-full overflow-hidden rounded-xl bg-linear-to-br from-[rgba(124,58,237,0.18)] to-transparent">

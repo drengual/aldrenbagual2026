@@ -76,7 +76,7 @@ export default function Page() {
                       src={home.hero.portrait.src}
                       alt={home.hero.portrait.alt}
                       priority
-                      className="object-cover"
+                      className="object-cover object-top"
                       sizes="(max-width: 1024px) 90vw, 420px"
                       fallback={
                         <div className="relative h-full w-full overflow-hidden rounded-xl bg-linear-to-br from-[rgba(124,58,237,0.18)] to-transparent">
@@ -286,7 +286,7 @@ export default function Page() {
                 <Button
                   key={b.label}
                   href={b.href}
-                  variant={idx === 0 ? "primary" : "secondary"}
+                  variant={idx === 0 ? "secondary" : "primary"}
                 >
                   {b.label}
                 </Button>
