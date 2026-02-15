@@ -6,10 +6,7 @@
     "email": "aldrenbagual@outlook.com",
     "links": [
       { "label": "GitHub", "href": "https://github.com/drengual" },
-      {
-        "label": "LinkedIn",
-        "href": "https://www.linkedin.com/in/aldrenbagual"
-      },
+
       { "label": "Resume", "href": "/resume.pdf" },
       { "label": "Experience", "href": "/#experience" }
     ]
@@ -117,7 +114,7 @@
     "items": [
       {
         "title": "Z Aviation Consulting — Multi-site Delivery & Headless Strategy",
-        "outcome": "Led end-to-end delivery across multiple company websites — from stakeholder discovery and PRDs to Figma design systems, development, and VPS production releases.",
+        "outcome": "Led end-to-end delivery across multiple company websites, from stakeholder discovery and PRDs to Figma design systems, development, and VPS production releases.",
         "image": {
           "src": "/images/projects/zav.jpg",
           "alt": "Z Aviation project preview"
@@ -137,7 +134,7 @@
         "title": "SOCA — AI-Powered Task Management System",
         "outcome": "Built a full-stack task manager that uses generative AI to automatically break complex tasks into actionable subtasks, improving clarity and execution flow.",
         "image": {
-          "src": "/images/projects/soca.jpg",
+          "src": "/images/projects/soca.png",
           "alt": "SOCA project preview"
         },
         "href": "/work/soca"
@@ -146,7 +143,7 @@
         "title": "Library Computer Usage Monitoring System",
         "outcome": "Developed an internal desktop system to track library computer usage by course and export structured Excel reports, improving visibility and admin workflow efficiency.",
         "image": {
-          "src": "/images/projects/library-monitoring.jpg",
+          "src": "/images/projects/library-monitoring.png",
           "alt": "Library monitoring system project preview"
         },
         "href": "/work/library-monitoring"
@@ -163,7 +160,7 @@
       },
       {
         "title": "Ownership",
-        "body": "I take responsibility beyond implementation — including production behavior and iteration."
+        "body": "I take responsibility beyond implementation including production behavior and iteration."
       },
       {
         "title": "Maintainability",
@@ -173,7 +170,7 @@
   },
   "systems": {
     "title": "Systems & process",
-    "body": "Beyond code, I design workflows and delivery structure that reduce chaos — requirements → execution → release → support — so teams can move with confidence.",
+    "body": "Beyond code, I design workflows and delivery structure that reduce chaos, requirements → execution → release → support,so teams can move with confidence.",
     "link": { "label": "Read about my process", "href": "/process" }
   },
   "tech": {
@@ -195,10 +192,7 @@
   "cta": {
     "title": "Let's talk",
     "body": "If you're looking for a reliable developer who can own delivery end-to-end, I'd love to connect.",
-    "buttons": [
-      { "label": "Contact Me", "href": "#contact" },
-      { "label": "View Resume", "href": "/resume.pdf" }
-    ]
+    "buttons": [{ "label": "View Resume", "href": "/resume.pdf" }]
   },
   "contact": {
     "title": "Contact",
@@ -209,7 +203,7 @@
     {
       "slug": "smartretry",
       "title": "SmartRetry — Headless Fintech Marketing Platform",
-      "summary": "Architected and delivered a production-grade fintech marketing platform using a headless CMS and modular frontend system, built for rapid iteration, maintainability, and long-term scalability.",
+      "summary": "Architected and delivered a production-grade, multilingual fintech marketing platform built on Next.js 15 and deployed on Cloudflare Workers, integrating a headless WordPress CMS, automation workflows, and performance-focused infrastructure.",
       "heroImage": {
         "src": "/images/projects/smartretry.jpg",
         "alt": "SmartRetry fintech platform preview"
@@ -223,9 +217,11 @@
           "Next.js 15 (App Router)",
           "TypeScript",
           "Tailwind CSS",
-          "Headless WordPress (REST)",
+          "Headless WordPress",
+          "Cloudflare Workers",
           "Supabase",
-          "Lottie Animations"
+          "Make.com",
+          "Sentry"
         ]
       },
       "links": {
@@ -233,39 +229,45 @@
         "repo": ""
       },
       "overview": {
-        "scope": "A modular fintech marketing platform with CMS-driven directories, glossary, FAQ systems, structured content modules, and interactive UX components.",
-        "responsibility": "Frontend architecture, CMS integration, structured module development, animation implementation, and production-ready feature delivery."
+        "scope": "A modular, CMS-driven fintech marketing platform with multilingual support, dynamic content modules (directory, FAQ, glossary, blog), SEO optimization, automation workflows, and production-grade deployment.",
+        "responsibility": "Owned frontend architecture, CMS modeling, multilingual routing, automation integration, performance optimization, deployment workflow, and production reliability."
       },
-      "problem": "The platform required frequent content updates, structured SEO-driven modules, and complex interactive sections while maintaining performance and developer velocity in a startup environment. The challenge was balancing animation-heavy UX with clean architecture and long-term maintainability.",
+      "problem": "The startup required a scalable marketing platform capable of rapid iteration, structured SEO content expansion, and multilingual support. The system needed to balance animation-heavy UX, dynamic CMS content, automation workflows, and production reliability, all within startup constraints.",
       "constraints": [
         "Startup timelines with evolving requirements",
-        "Heavy animation requirements without degrading performance",
-        "Headless CMS limitations and content modeling complexity",
-        "Strict type-safety and linting requirements",
-        "Limited development bandwidth"
+        "Headless WordPress behind a private Cloudflare Tunnel (no public CMS access)",
+        "Need for multilingual and RTL support",
+        "Animation-heavy UI without sacrificing performance",
+        "Deployment on Cloudflare Workers (not traditional Node hosting)",
+        "Strict security, monitoring, and SEO requirements"
       ],
-      "approach": "I designed the platform around a modular, component-driven architecture using Next.js App Router and TypeScript to ensure scalability and clarity. Content was modeled in WordPress as structured post types and consumed via REST endpoints. Interactive and animated sections were implemented using controlled client components to prevent unnecessary re-renders, prioritizing performance and maintainability over visual shortcuts.",
+      "approach": "I designed the platform around a modular App Router architecture using Next.js 15 with server-side rendering for SEO and performance. WordPress was consumed headlessly via REST through a private Cloudflare Tunnel. Automation workflows were integrated using Make.com webhooks for CRM synchronization. I prioritized strict TypeScript boundaries, CMS structure clarity, and performance discipline to ensure scalability under evolving requirements.",
       "architecture": {
         "frontend": "Next.js 15 App Router + TypeScript + Tailwind CSS",
-        "cms": "Headless WordPress with structured post types and ACF",
-        "data": "REST-based CMS integration with typed fetch layers",
-        "deployment": "Production-ready hosting with CI/CD workflow"
+        "cms": "Headless WordPress accessed securely via Cloudflare Tunnel",
+        "automation": "Make.com webhooks integrated with Monday CRM for contact and newsletter workflows",
+        "deployment": "Cloudflare Workers with @opennextjs/cloudflare adapter",
+        "monitoring": "Sentry for error tracking and performance monitoring"
       },
       "execution": [
-        "Implemented CMS-driven payment provider directory with filtering and search",
-        "Built modular FAQ and glossary systems mirroring structured blog architecture",
-        "Developed scroll-driven 'How It Works' section using IntersectionObserver and controlled Lottie animation state",
-        "Structured type-safe data fetching layers for WordPress REST integration",
-        "Designed reusable UI components for consistent spacing, theming, and layout fidelity",
-        "Maintained strict ESLint and TypeScript standards to prevent architectural drift"
+        "Built multilingual routing system with dynamic locale-based pages and RTL support",
+        "Implemented CMS-driven modules including directory, FAQ, glossary, blog, and structured content blocks",
+        "Integrated Lottie animations with controlled client rendering to preserve performance",
+        "Implemented React Hook Form + Zod validation for robust form handling",
+        "Connected contact and newsletter forms to Make.com via webhooks for CRM automation",
+        "Configured secure WordPress access through Cloudflare Tunnel (no public CMS endpoints)",
+        "Deployed on Cloudflare Workers with optimized SSR and caching strategies",
+        "Implemented structured SEO metadata, Open Graph tags, canonical URLs, and JSON-LD schemas",
+        "Integrated Sentry for production monitoring and release tracking"
       ],
       "outcomes": [
-        "Enabled rapid iteration through structured CMS-driven modules",
-        "Reduced developer dependency for routine content updates",
-        "Maintained performance despite animation-heavy UX requirements",
-        "Delivered scalable frontend architecture suitable for future expansion"
+        "Delivered a scalable marketing platform capable of rapid content iteration",
+        "Enabled secure headless CMS integration without exposing backend infrastructure",
+        "Automated CRM workflows via Make.com, reducing manual data handling",
+        "Maintained performance and SEO integrity despite animation-heavy UI",
+        "Established a production-ready architecture suitable for future feature expansion"
       ],
-      "reflection": "This project reinforced the importance of structuring content models correctly early, as CMS design decisions directly affect frontend complexity. It also highlighted the tradeoff between visual interactivity and architectural clarity — animation must serve usability, not compromise maintainability."
+      "reflection": "This project reinforced that content modeling decisions directly shape frontend complexity in headless systems. It also highlighted the importance of balancing visual interactivity with performance discipline. Deploying on Cloudflare Workers required careful SSR considerations, strengthening my understanding of edge deployment constraints."
     },
     {
       "slug": "zav-websites",
@@ -297,7 +299,7 @@
         "scope": "A multi-site web delivery program that covered requirements, UX planning, design system creation, scalable frontend builds, headless CMS integration, deployment, and ongoing production support.",
         "responsibility": "Owned the delivery lifecycle end-to-end: stakeholder discovery → PRD/specs → UX flows & design system → build → release → support, while coordinating tasks and quality reviews as acting team lead."
       },
-      "problem": "The organization needed reliable, business-critical websites delivered on real timelines, with a structure that supports ongoing iteration, stakeholder clarity, and maintainable long-term ownership — not one-off builds.",
+      "problem": "The organization needed reliable, business critical websites delivered on real timelines, with a structure that supports ongoing iteration, stakeholder clarity, and maintainable long-term ownership, not one-off builds.",
       "constraints": [
         "Multiple sites delivered in phases aligned to business timelines",
         "Non-technical stakeholders required clear requirements and predictable delivery",
