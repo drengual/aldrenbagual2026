@@ -6,7 +6,10 @@
     "email": "aldrenbagual@outlook.com",
     "links": [
       { "label": "GitHub", "href": "https://github.com/drengual" },
-
+      {
+        "label": "LinkedIn",
+        "href": "https://www.linkedin.com/in/aldrenbagual"
+      },
       { "label": "Resume", "href": "/resume.pdf" },
       { "label": "Experience", "href": "/#experience" }
     ]
@@ -14,7 +17,7 @@
   "hero": {
     "email": "aldrenbagual@outlook.com",
     "headline": "I architect and maintain production web systems teams can depend on.",
-    "subheadline": "Systems-oriented full-stack developer focused on clarity, maintainability, and real-world delivery, from planning to production.",
+    "subheadline": "Systems-oriented full-stack developer focused on clarity, maintainability, and real-world delivery, from planning to production. ",
     "portrait": {
       "src": "/images/portrait.jpg",
       "alt": "Portrait of Aldren Bagual"
@@ -114,7 +117,7 @@
     "items": [
       {
         "title": "Z Aviation Consulting — Multi-site Delivery & Headless Strategy",
-        "outcome": "Led end-to-end delivery across multiple company websites, from stakeholder discovery and PRDs to Figma design systems, development, and VPS production releases.",
+        "outcome": "Led end-to-end delivery across multiple company websites — from stakeholder discovery and PRDs to Figma design systems, development, and VPS production releases.",
         "image": {
           "src": "/images/projects/zav.jpg",
           "alt": "Z Aviation project preview"
@@ -160,7 +163,7 @@
       },
       {
         "title": "Ownership",
-        "body": "I take responsibility beyond implementation including production behavior and iteration."
+        "body": "I take responsibility beyond implementation — including production behavior and iteration."
       },
       {
         "title": "Maintainability",
@@ -170,7 +173,7 @@
   },
   "systems": {
     "title": "Systems & process",
-    "body": "Beyond code, I design workflows and delivery structure that reduce chaos, requirements → execution → release → support,so teams can move with confidence.",
+    "body": "Beyond code, I design workflows and delivery structure that reduce chaos — requirements → execution → release → support — so teams can move with confidence.",
     "link": { "label": "Read about my process", "href": "/process" }
   },
   "tech": {
@@ -192,7 +195,10 @@
   "cta": {
     "title": "Let's talk",
     "body": "If you're looking for a reliable developer who can own delivery end-to-end, I'd love to connect.",
-    "buttons": [{ "label": "View Resume", "href": "/resume.pdf" }]
+    "buttons": [
+      { "label": "Contact Me", "href": "#contact" },
+      { "label": "View Resume", "href": "/resume.pdf" }
+    ]
   },
   "contact": {
     "title": "Contact",
@@ -232,7 +238,7 @@
         "scope": "A modular, CMS-driven fintech marketing platform with multilingual support, dynamic content modules (directory, FAQ, glossary, blog), SEO optimization, automation workflows, and production-grade deployment.",
         "responsibility": "Owned frontend architecture, CMS modeling, multilingual routing, automation integration, performance optimization, deployment workflow, and production reliability."
       },
-      "problem": "The startup required a scalable marketing platform capable of rapid iteration, structured SEO content expansion, and multilingual support. The system needed to balance animation-heavy UX, dynamic CMS content, automation workflows, and production reliability, all within startup constraints.",
+      "problem": "The startup required a scalable marketing platform capable of rapid iteration, structured SEO content expansion, and multilingual support. The system needed to balance animation-heavy UX, dynamic CMS content, automation workflows, and production reliability — all within startup constraints.",
       "constraints": [
         "Startup timelines with evolving requirements",
         "Headless WordPress behind a private Cloudflare Tunnel (no public CMS access)",
@@ -299,7 +305,7 @@
         "scope": "A multi-site web delivery program that covered requirements, UX planning, design system creation, scalable frontend builds, headless CMS integration, deployment, and ongoing production support.",
         "responsibility": "Owned the delivery lifecycle end-to-end: stakeholder discovery → PRD/specs → UX flows & design system → build → release → support, while coordinating tasks and quality reviews as acting team lead."
       },
-      "problem": "The organization needed reliable, business critical websites delivered on real timelines, with a structure that supports ongoing iteration, stakeholder clarity, and maintainable long-term ownership, not one-off builds.",
+      "problem": "The organization needed reliable, business-critical websites delivered on real timelines, with a structure that supports ongoing iteration, stakeholder clarity, and maintainable long-term ownership — not one-off builds.",
       "constraints": [
         "Multiple sites delivered in phases aligned to business timelines",
         "Non-technical stakeholders required clear requirements and predictable delivery",

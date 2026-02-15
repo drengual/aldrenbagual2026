@@ -209,7 +209,7 @@ export default async function Page({
                         src={project.heroImage.src}
                         alt={project.heroImage.alt}
                         priority
-                        className="object-cover object-top"
+                        className="object-cover"
                         sizes="(max-width: 1024px) 90vw, 420px"
                         fallback={
                           <div className="relative h-full w-full overflow-hidden rounded-xl bg-linear-to-br from-[rgba(124,58,237,0.18)] to-transparent">
