@@ -1,3 +1,5 @@
+"use client";
+
 import content from "@/content/content.json";
 
 // For convenience, create a home object from the content
@@ -37,11 +39,6 @@ export default function Page() {
 
                 <p className="mt-4 max-w-2xl text-base leading-relaxed text-[rgba(255,255,255,0.72)] sm:text-lg">
                   {home.hero.subheadline}
-                </p>
-
-                <p className="mt-3 max-w-2xl text-sm leading-relaxed text-[rgba(255,255,255,0.6)]">
-                  with 3+ years of experience building, deploying, and
-                  maintaining production web platforms and internal systems
                 </p>
 
                 <a
@@ -174,6 +171,92 @@ export default function Page() {
         </div>
       </Section>
 
+      {/* FREELANCE & CONTRACT PROJECTS */}
+      {home.freelanceProjects && (
+        <Section id="freelance" title={home.freelanceProjects.title}>
+          <div className="space-y-4">
+            {home.freelanceProjects.projects.map((r, idx) => (
+              <FadeIn key={`${r.company}-${r.title}`} delay={idx * 0.05}>
+                <div className="rounded-xl border border-black/10 dark:border-white/08 bg-white/4 dark:bg-white/04 p-6 shadow-soft">
+                  <div className="flex flex-col gap-2 sm:flex-row sm:items-baseline sm:justify-between">
+                    <div>
+                      <h3 className="text-base font-semibold text-black/92 dark:text-white/92">
+                        {r.title}
+                      </h3>
+                      <p className="mt-1 text-sm text-black/70 dark:text-white/70">
+                        {r.company}
+                      </p>
+                    </div>
+
+                    <div className="flex items-center gap-3">
+                      {r.link && (
+                        <a
+                          href={r.link}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="text-sm text-[rgba(124,58,237,0.92)] hover:underline"
+                        >
+                          Visit Site
+                        </a>
+                      )}
+                      <p className="text-sm text-black/60 dark:text-white/60">
+                        {r.date}
+                      </p>
+                    </div>
+                  </div>
+
+                  <ul className="mt-4 space-y-2 text-sm text-black/75 dark:text-white/75">
+                    {r.highlights.map((h) => (
+                      <li key={h} className="flex gap-2">
+                        <span className="mt-1.75 h-1.5 w-1.5 shrink-0 rounded-full bg-[rgba(124,58,237,0.8)]" />
+                        <span>{h}</span>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              </FadeIn>
+            ))}
+          </div>
+        </Section>
+      )}
+
+      {/* PERSONAL PROJECTS */}
+      {home.personalProjects && (
+        <Section id="personal-projects" title={home.personalProjects.title}>
+          <div className="space-y-4">
+            {home.personalProjects.projects.map((p, idx) => (
+              <FadeIn key={p.title} delay={idx * 0.05}>
+                <div className="rounded-xl border border-black/10 dark:border-white/08 bg-white/4 dark:bg-white/04 p-6 shadow-soft">
+                  <div className="flex flex-col gap-2 sm:flex-row sm:items-baseline sm:justify-between">
+                    <div>
+                      <h3 className="text-base font-semibold text-black/92 dark:text-white/92">
+                        {p.title}
+                      </h3>
+                      <p className="mt-1 text-sm font-medium text-[rgba(124,58,237,0.92)]">
+                        {p.tech}
+                      </p>
+                    </div>
+                    {p.link && (
+                      <a
+                        href={p.link}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-sm text-black/60 dark:text-white/60 hover:text-[rgba(124,58,237,0.92)] flex items-center gap-1"
+                      >
+                        View <ArrowRight className="h-3.5 w-3.5" />
+                      </a>
+                    )}
+                  </div>
+                  <p className="mt-3 text-sm text-black/75 dark:text-white/75">
+                    {p.description}
+                  </p>
+                </div>
+              </FadeIn>
+            ))}
+          </div>
+        </Section>
+      )}
+
       {/* WORK */}
       <Section id="work" title={home.work.title}>
         <div className="grid gap-4">
@@ -189,7 +272,7 @@ export default function Page() {
                       <SafeImage
                         src={item.image.src}
                         alt={item.image.alt}
-                        className="object-cover"
+                        className="object-cover object-top"
                         sizes="(max-width: 640px) 100vw, 220px"
                       />
                     ) : (
@@ -264,51 +347,148 @@ export default function Page() {
         </FadeIn>
       </Section>
 
-      {/* ABOUT */}
-      <Section id="about" title={home.about.title}>
-        <FadeIn>
-          <div className="rounded-xl border border-black/10 dark:border-white/08 bg-white/4 dark:bg-white/04 p-6 shadow-soft">
-            <p className="max-w-3xl text-black/75 dark:text-white/75">
-              {home.about.body}
-            </p>
-          </div>
-        </FadeIn>
-      </Section>
-
       {/* CTA + CONTACT */}
-      <Section id="contact" title={home.contact.title}>
+      <Section id="contact" title="">
         <FadeIn>
           <div className="rounded-xl border border-black/10 dark:border-white/08 bg-white/4 dark:bg-white/04 p-6 shadow-soft">
-            <h3 className="text-lg font-semibold text-black/92 dark:text-white/92">
-              {home.cta.title}
-            </h3>
+            <div className="flex flex-col sm:flex-row sm:items-baseline sm:justify-between gap-2">
+              <h3 className="text-lg font-semibold text-black/92 dark:text-white/92">
+                {home.cta.title}
+              </h3>
+              <a
+                href={`mailto:${home.contact.emailLabel}`}
+                className="text-sm text-[rgba(124,58,237,0.92)] hover:underline"
+              >
+                {home.contact.emailLabel}
+              </a>
+            </div>
             <p className="mt-2 max-w-2xl text-sm text-black/72 dark:text-white/72">
               {home.cta.body}
             </p>
 
-            <div className="mt-6 flex flex-col gap-3 sm:flex-row">
-              {home.cta.buttons.map((b, idx) => (
-                <Button
-                  key={b.label}
-                  href={b.href}
-                  variant={idx === 0 ? "primary" : "secondary"}
-                >
-                  {b.label}
-                </Button>
-              ))}
-            </div>
+            <form
+              action="https://formspree.io/f/xwvrrgyz"
+              method="POST"
+              className="mt-6 space-y-4"
+              onSubmit={async (e) => {
+                e.preventDefault();
+                const form = e.currentTarget;
+                const button = form.querySelector(
+                  'button[type="submit"]',
+                ) as HTMLButtonElement;
+                const originalText = button.textContent;
+                const statusDiv = document.getElementById("form-status");
 
-            <div className="mt-8 rounded-xl border border-black/10 dark:border-white/10 bg-gray-100 dark:bg-[rgba(17,24,39,0.6)] p-5">
+                button.disabled = true;
+                button.textContent = "Sending...";
+                if (statusDiv) statusDiv.textContent = "";
+
+                try {
+                  const response = await fetch(form.action, {
+                    method: "POST",
+                    body: new FormData(form),
+                    headers: {
+                      Accept: "application/json",
+                    },
+                  });
+
+                  if (response.ok) {
+                    button.textContent = "Message Sent!";
+                    if (statusDiv) {
+                      statusDiv.textContent =
+                        "Thank you! Your message has been sent successfully.";
+                      statusDiv.className =
+                        "mt-3 text-sm text-green-600 font-medium";
+                    }
+                    form.reset();
+                    setTimeout(() => {
+                      button.textContent = originalText;
+                      button.disabled = false;
+                      if (statusDiv) statusDiv.textContent = "";
+                    }, 5000);
+                  } else {
+                    button.textContent = "Error - Try Again";
+                    if (statusDiv) {
+                      statusDiv.textContent =
+                        "Something went wrong. Please try again.";
+                      statusDiv.className =
+                        "mt-3 text-sm text-red-600 font-medium";
+                    }
+                    button.disabled = false;
+                  }
+                } catch (error) {
+                  button.textContent = "Error - Try Again";
+                  if (statusDiv) {
+                    statusDiv.textContent =
+                      "Something went wrong. Please try again.";
+                    statusDiv.className =
+                      "mt-3 text-sm text-red-600 font-medium";
+                  }
+                  button.disabled = false;
+                }
+              }}
+            >
+              <div>
+                <label
+                  htmlFor="name"
+                  className="block text-sm font-medium text-black/78 dark:text-white/78"
+                >
+                  Name
+                </label>
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  required
+                  className="mt-1 block w-full rounded-lg border border-black/20 bg-white px-3 py-2 text-sm text-black placeholder-black/40 focus:border-[rgba(124,58,237,0.5)] focus:outline-none focus:ring-1 focus:ring-[rgba(124,58,237,0.5)]"
+                  placeholder="Your name"
+                />
+              </div>
+              <div>
+                <label
+                  htmlFor="email"
+                  className="block text-sm font-medium text-black/78 dark:text-white/78"
+                >
+                  Email
+                </label>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  required
+                  className="mt-1 block w-full rounded-lg border border-black/20 bg-white px-3 py-2 text-sm text-black placeholder-black/40 focus:border-[rgba(124,58,237,0.5)] focus:outline-none focus:ring-1 focus:ring-[rgba(124,58,237,0.5)]"
+                  placeholder="your@email.com"
+                />
+              </div>
+              <div>
+                <label
+                  htmlFor="message"
+                  className="block text-sm font-medium text-black/78 dark:text-white/78"
+                >
+                  Message
+                </label>
+                <textarea
+                  id="message"
+                  name="message"
+                  rows={4}
+                  required
+                  className="mt-1 block w-full rounded-lg border border-black/20 bg-white px-3 py-2 text-sm text-black placeholder-black/40 focus:border-[rgba(124,58,237,0.5)] focus:outline-none focus:ring-1 focus:ring-[rgba(124,58,237,0.5)]"
+                  placeholder="Your message..."
+                />
+              </div>
+              <button
+                type="submit"
+                className="inline-flex items-center justify-center rounded-lg bg-[rgba(124,58,237,0.92)] px-4 py-2.5 text-sm font-medium text-white transition-colors hover:bg-[rgba(124,58,237,1)] focus:outline-none focus:ring-2 focus:ring-[rgba(124,58,237,0.5)] focus:ring-offset-2 focus:ring-offset-[#0b0f17]"
+              >
+                Send Message
+              </button>
+              <div id="form-status"></div>
+            </form>
+
+            <div className="mt-8 pt-6 border-t border-black/10 dark:border-white/10">
               <p className="text-sm text-black/72 dark:text-white/72">
                 {home.contact.body}
               </p>
-              <a
-                className="mt-3 inline-flex items-center gap-2 text-sm font-medium text-black/92 dark:text-white/92 hover:opacity-90"
-                href={`mailto:${home.contact.emailLabel}`}
-              >
-                <Mail className="h-4 w-4 text-black/92 dark:text-white/92" />
-                {home.contact.emailLabel}
-              </a>
             </div>
           </div>
         </FadeIn>

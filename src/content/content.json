@@ -1,23 +1,24 @@
 {
   "meta": {
     "name": "Aldren Bagual",
-    "role": "Full-Stack Developer • Systems-Oriented Team Lead",
-    "location": "Philippines (Remote-ready)",
-    "email": "aldrenbagual@outlook.com",
+    "role": "Full-Stack Developer & Product Engineer",
+    "location": "Cavite, PH",
+    "email": "aldrenbagual17@gmail.com",
+    "availability": "Available for new opportunities",
     "links": [
       { "label": "GitHub", "href": "https://github.com/drengual" },
       {
         "label": "LinkedIn",
         "href": "https://www.linkedin.com/in/aldrenbagual"
       },
-      { "label": "Resume", "href": "/resume.pdf" },
-      { "label": "Experience", "href": "/#experience" }
+      { "label": "Portfolio", "href": "https://aldrenbagual.vercel.app" },
+      { "label": "Resume", "href": "/resume.pdf" }
     ]
   },
   "hero": {
-    "email": "aldrenbagual@outlook.com",
+    "email": "aldrenbagual17@gmail.com",
     "headline": "I architect and maintain production web systems teams can depend on.",
-    "subheadline": "Systems-oriented full-stack developer focused on clarity, maintainability, and real-world delivery, from planning to production. ",
+    "subheadline": "Full-Stack Engineer with 3+ years of experience available for new opportunities. Specializes in headless CMS architecture, Next.js, and cloud-based VPS deployments.",
     "portrait": {
       "src": "/images/portrait.jpg",
       "alt": "Portrait of Aldren Bagual"
@@ -26,14 +27,14 @@
     "secondaryCta": { "label": "Contact Me", "href": "#contact" }
   },
   "credibility": {
-    "title": "Currently leading web & system delivery",
-    "body": "I lead architecture and delivery of business-critical websites and internal systems, define requirements, ship production releases, and serve as the primary technical point of contact for stakeholders.",
+    "title": "Most recently led web & system delivery",
+    "body": "Full-Stack Engineer with 3+ years of progressive experience building and shipping production web platforms for international clients across fintech, aviation, and consulting. Progressed from freelance delivery to leading architecture and full project lifecycles remotely for clients in Australia, New Zealand, and Israel. I care about building systems that are reliable, understandable, and actually used — reducing operational friction for teams and stakeholders.",
     "bullets": [
-      "Led planning, architecture, and development of multiple company websites",
-      "Defined PRDs and technical specifications with stakeholders",
-      "Architected scalable frontend + headless CMS integrations",
-      "Deployed and maintained production sites (VPS, releases, reliability)",
-      "Coordinated implementation, task tracking, and quality reviews"
+      "Served as lead engineer on multi-person dev teams across 3+ company websites",
+      "Designed, built, and deployed full stack (Next.js, Headless WordPress, Supabase)",
+      "Crafted UI/UX systems in Figma and established reusable design systems",
+      "Managed VPS infrastructure end-to-end, achieving 99%+ uptime",
+      "Standardised CI/CD pipelines, reducing deployment cycles to repeatable processes"
     ]
   },
   "expertise": {
@@ -54,67 +55,124 @@
     ]
   },
   "experience": {
-    "title": "Work experience",
+    "title": "Work Experiences",
     "roles": [
       {
         "company": "Z Aviation Consulting",
-        "title": "IT Developer / Team Lead",
-        "date": "Aug 2025 — Present",
+        "title": "Full-Stack Developer",
+        "date": "Aug 2025 — March 2026",
+        "location": "Remote — Australia",
         "highlights": [
-          "Led planning, architecture, and delivery of multiple company websites using WordPress and headless CMS strategy",
-          "Defined PRDs and technical specifications through stakeholder discussions",
-          "Architected Next.js + Tailwind with headless WordPress and Supabase integrations",
-          "Deployed and maintained sites on VPS infrastructure; handled production releases and reliability",
-          "Primary technical point of contact for stakeholders (support, troubleshooting, explanations)"
-        ]
-      },
-      {
-        "company": "SmartRetry (Fintech Startup)",
-        "title": "Web Platform Engineer (Project-Based)",
-        "date": "Sep 2025 — Dec 2025",
-        "highlights": [
-          "Built and maintained a production-grade fintech marketing platform (Next.js, TypeScript, Tailwind, Headless WordPress)",
-          "Implemented CMS-driven directories, search, filtering, FAQs, glossary modules, and utilities",
-          "Owned platform lifecycle from architecture planning through deployment and iterative improvements"
+          "Served as lead engineer on a 2-person dev team across 3+ company websites, personally designing, building, and deploying the full stack (Next.js, Headless WordPress, Supabase)",
+          "Crafted the UI/UX system in Figma and managed VPS infrastructure end-to-end, achieving 99% uptime across all live properties from day one",
+          "Standardised CI/CD pipelines and server configuration processes across a multi-site environment, reducing each deployment cycle from ad-hoc manual steps to a repeatable 4-hour release process",
+          "Acted as sole stakeholder liaison between the client and development process, translating executive requirements into PRDs and technical specs, then leading sprint planning and code reviews",
+          "Established a reusable Figma design system covering components, user flows, and wireframes, cutting design-to-development handoff time"
         ]
       },
       {
         "company": "Creaxon, Inc.",
-        "title": "Junior Full Stack Developer",
+        "title": "Full-Stack Developer",
         "date": "May 2024 — May 2025",
+        "location": "Makati / Remote",
         "highlights": [
-          "Supported and maintained 10+ production websites (updates, fixes, post-deploy checks)",
-          "Built and customized WordPress and Shopify sites; handled themes, plugins, configurations",
-          "Managed deployments via Cloudways; collaborated with GitLab workflows"
+          "Maintained and improved 10+ live client websites across WordPress and Shopify with zero major outages on a team of 2-3, handling performance fixes, plugin updates, and post-deployment QA",
+          "Delivered pixel-perfect, cross-device responsive UIs translated directly from Figma designs, reducing revision cycles and accelerating client sign-off",
+          "Improved team-wide release reliability by standardising GitLab workflows and Cloudways deployment procedures across a team of 3",
+          "Boosted organic visibility for multiple client sites by implementing SEO best practices including structured metadata, semantic markup, and Core Web Vitals optimisation"
         ]
       },
       {
-        "company": "Freelance / Project-Based",
-        "title": "Full-Stack Web Developer & Project Manager",
+        "company": "AGSS Dev Group",
+        "title": "Full-Stack Developer & Project Manager",
         "date": "Feb 2023 — Apr 2024",
+        "location": "Rosario, Cavite",
         "highlights": [
-          "Led end-to-end delivery across multiple client projects by scoping work, managing timelines, and tracking progress to ship on schedule, while guiding a small dev team through code reviews and mentorship to enforce clean, scalable standards.",
-          "Collaborated directly with clients to translate business needs into clear technical plans and implementation decisions, serving as the primary bridge between stakeholder requirements and final product execution.",
-          "Built 10+ responsive, accessible websites using React and Tailwind CSS with strong cross-device performance, integrating third-party and custom APIs to ensure dynamic functionality and reliable data flow.",
-          "Implemented authentication, real-time updates, and cloud database workflows using Supabase and Node.js, while optimizing release speed through CI/CD via GitHub and Vercel and maintaining collaborative Git branching and PR best practices."
+          "Independently scoped, built, and launched 10+ client websites end-to-end using React, Tailwind CSS, Node.js, and Supabase, managing client relationships from requirements to delivery",
+          "Accelerated time-to-launch for client projects by setting up GitHub Actions and Vercel CI/CD pipelines, reducing manual deployment steps and cutting release friction",
+          "Mentored and guided 1 junior developer through consistent code reviews and scalable coding standards, improving team output quality"
         ]
       },
       {
-        "company": "Campus Library — Cavite State University (CCAT)",
-        "title": "Lead Programmer (Intern)",
+        "company": "Cavite State University — CCAT Library",
+        "title": "Lead Programmer - Internship",
         "date": "Sep 2023 — Jan 2024",
+        "location": "Rosario, Cavite",
         "highlights": [
-          "Spearheaded the development of a Python desktop application to monitor library PC usage, automating session tracking and generating usage reports to significantly improve administrative efficiency.",
-          "Translated library staff workflows into technical specifications and designed an intuitive interface using PySimpleGUI, specifically tailored for seamless use by non-technical staff.",
-          "Engineered Excel-based data storage and automated report exports, effectively reducing manual encoding while improving overall record accuracy and data integrity.",
-          "Delivered comprehensive software and hardware support, including troubleshooting, device optimization, and hands-on assistance with staff onboarding and daily library operations."
+          "Eliminated a fully manual library usage tracking process by building a Python desktop application that automated computer monitoring and report generation, saving staff several hours per week",
+          "Improved daily operational reliability for library staff by providing consistent hardware and software technical support, reducing equipment downtime"
         ]
+      }
+    ]
+  },
+  "freelanceProjects": {
+    "title": "Freelance & Contract Projects",
+    "projects": [
+      {
+        "company": "Parachute Consulting Solutions",
+        "title": "Full-Stack Engineer & Lead Consultant",
+        "date": "March 2026 — Present",
+        "location": "Remote — Australia",
+        "link": "https://pcs-bice.vercel.app/",
+        "highlights": [
+          "Leading the design and development of an 8-page marketing and lead generation website for an executive advisory firm, with deliberate goal of converting visitors into direct conversations with the founder",
+          "Built a fully CMS-driven content architecture using Sanity IO with embedded studio, giving the client complete control over all copy, navigation labels, form placeholders, and section content post-launch",
+          "Implemented a distinctive Kinetic Minimalism design direction using Next.js 14 App Router, TypeScript, Tailwind CSS, ShadCN UI, and Framer Motion, covering 4 service sectors with scroll-driven animations",
+          "Engineered the homepage information hierarchy to lead with the client's problem, position PCS as the answer, and introduce the founder as proof"
+        ]
+      },
+      {
+        "company": "SmartRetry — Fintech Startup",
+        "title": "Full-Stack Developer",
+        "date": "Sep — Dec 2025",
+        "location": "Remote — Israel",
+        "link": "https://www.smartretry.com/",
+        "highlights": [
+          "Delivered a full fintech marketing platform from zero to production in under 4 months as the sole developer, using Next.js, TypeScript, Tailwind CSS, and Headless WordPress",
+          "Eliminated developer dependency in content operations by building a fully CMS-driven architecture (directories, search, FAQs, glossary), enabling the marketing team to self-manage all content updates independently",
+          "Improved platform performance through targeted front-end optimisations, reducing page load times and improving Core Web Vitals scores"
+        ]
+      }
+    ]
+  },
+  "personalProjects": {
+    "title": "Personal Projects",
+    "projects": [
+      {
+        "title": "ResumeAI Tailor — ATS-Optimized Resume Generator",
+        "tech": "Next.js, TypeScript, AI (Groq/Gemini), Web Application",
+        "description": "A free web application that helps job seekers dramatically increase their interview callback rate by generating ATS-optimized, tailored resumes in seconds. The user uploads their existing resume, pastes a job description, and the system produces a professionally formatted, keyword-rich Word document resume.",
+        "link": "https://resumeai-tailor.vercel.app/"
+      },
+      {
+        "title": "SOCA — AI-Powered Task Management System",
+        "tech": "Python, AI/ML, Desktop Application",
+        "description": "BS Information Technology thesis. An AI-driven task management system that intelligently prioritises and organises tasks based on user behaviour and workload patterns.",
+        "link": "/work/soca"
       }
     ]
   },
   "work": {
     "title": "Selected Work",
     "items": [
+      {
+        "title": "ResumeAI Tailor — ATS-Optimized Resume Generator",
+        "outcome": "Developed a full-stack web application that uses AI to automatically tailor resumes to job descriptions, generating ATS-optimized Word documents to help job seekers land more interviews.",
+        "image": {
+          "src": "/images/projects/resumeai-tailor.png",
+          "alt": "ResumeAI Tailor project preview"
+        },
+        "href": "/work/resumeai-tailor"
+      },
+      {
+        "title": "Parachute Consulting Solutions — Kinetic Minimalism Design",
+        "outcome": "Leading design and development of an 8-page marketing and lead generation website featuring a distinctive Kinetic Minimalism design direction with scroll-driven animations and full Sanity CMS control.",
+        "image": {
+          "src": "/images/projects/pcs.png",
+          "alt": "Parachute Consulting Solutions project preview"
+        },
+        "href": "/work/parachute-consulting"
+      },
       {
         "title": "Z Aviation Consulting — Multi-site Delivery & Headless Strategy",
         "outcome": "Led end-to-end delivery across multiple company websites — from stakeholder discovery and PRDs to Figma design systems, development, and VPS production releases.",
@@ -163,7 +221,7 @@
       },
       {
         "title": "Ownership",
-        "body": "I take responsibility beyond implementation — including production behavior and iteration."
+        "body": "I take responsibility beyond implementation, including production behavior and iteration."
       },
       {
         "title": "Maintainability",
@@ -179,22 +237,20 @@
   "tech": {
     "title": "Technology focus",
     "items": [
-      "Next.js & TypeScript",
-      "Tailwind CSS",
-      "Headless WordPress (REST API)",
+      "JavaScript, TypeScript, React, Next.js, Node.js",
+      "Python",
+      "Tailwind CSS & ShadCN UI",
+      "Framer Motion",
+      "WordPress (Headless & Traditional), Shopify, Sanity IO",
       "Supabase & PostgreSQL",
-      "Node.js",
-      "Git & CI/CD (GitHub, Vercel)",
-      "VPS Deployments & Production Releases"
+      "Figma (Design Systems, Wireframes, User Flows)",
+      "Git, GitLab, GitHub Actions & CI/CD",
+      "VPS Configuration, SSH/SFTP, Cloudways, Vercel"
     ]
-  },
-  "about": {
-    "title": "About",
-    "body": "I care about building systems that are reliable, understandable, and actually used. My focus is not just shipping features, but reducing operational friction for teams and stakeholders."
   },
   "cta": {
     "title": "Let's talk",
-    "body": "If you're looking for a reliable developer who can own delivery end-to-end, I'd love to connect.",
+    "body": "I'm currently available for new opportunities. If you're looking for a reliable developer who can own delivery end-to-end, I'd love to connect.",
     "buttons": [
       { "label": "Contact Me", "href": "#contact" },
       { "label": "View Resume", "href": "/resume.pdf" }
@@ -203,9 +259,128 @@
   "contact": {
     "title": "Contact",
     "body": "Email is best. I reply within 24–48 hours.",
-    "emailLabel": "aldrenbagual@outlook.com"
+    "emailLabel": "aldrenbagual17@gmail.com"
   },
   "projects": [
+    {
+      "slug": "resumeai-tailor",
+      "title": "ResumeAI Tailor — ATS-Optimized Resume Generator",
+      "summary": "A free web application that helps job seekers dramatically increase their interview callback rate by generating ATS-optimized, tailored resumes in seconds using AI.",
+      "heroImage": {
+        "src": "/images/projects/resumeai-tailor.png",
+        "alt": "ResumeAI Tailor application preview"
+      },
+      "video": "",
+      "meta": {
+        "role": "Solo Full-Stack Developer",
+        "environment": "Web Application — Public",
+        "duration": "March 2026",
+        "stack": [
+          "Next.js",
+          "React",
+          "TypeScript",
+          "Tailwind CSS",
+          "Groq API (Llama 3)",
+          "Google Gemini",
+          "Node.js",
+          "Vercel"
+        ]
+      },
+      "links": {
+        "live": "",
+        "repo": ""
+      },
+      "overview": {
+        "scope": "A web application that accepts a user's resume and a job description, then uses AI to generate a tailored, ATS-optimized .docx resume for download.",
+        "responsibility": "Full-stack development, including frontend UI/UX, backend API development, AI integration, and prompt engineering."
+      },
+      "problem": "Most resumes are rejected by Applicant Tracking Systems (ATS) before a human reads them due to a lack of keyword optimization and proper formatting. Job seekers miss opportunities not because they are unqualified, but because their resumes fail automated screening.",
+      "constraints": [
+        "Must use only free-tier APIs (Groq, Gemini) with no paid services.",
+        "No database or user authentication in the MVP.",
+        "Must be deployable on Vercel's free tier.",
+        "Serverless function execution timeout of 10 seconds."
+      ],
+      "approach": "The project was built following a detailed Product Requirements Document and a step-by-step build guide. The architecture separates concerns into a reactive frontend, three distinct backend API routes for parsing, AI generation, and file export, and a robust AI integration layer with a primary/fallback mechanism to ensure high availability and performance.",
+      "architecture": {
+        "frontend": "Next.js (App Router), React, Tailwind CSS",
+        "cms": "N/A",
+        "data": "AI integration via Groq API (Llama 3) and Google Gemini API",
+        "deployment": "Vercel"
+      },
+      "execution": [
+        "Developed a multi-step backend process: 1. Parse uploaded resume (PDF/DOCX). 2. Call AI with resume text and job description. 3. Generate a downloadable .docx file.",
+        "Engineered a robust AI prompt to ensure consistent, high-quality JSON output for resume content.",
+        "Built a modular component-based UI with React and Next.js for a clean user experience.",
+        "Implemented a primary (Groq) and fallback (Gemini) AI service pattern to handle potential API failures.",
+        "Ensured the generated .docx files were strictly ATS-compliant by avoiding columns, tables, and other problematic formatting."
+      ],
+      "outcomes": [
+        "Dramatically reduces the time to tailor a resume from hours to seconds.",
+        "Generates highly-optimized resumes designed to achieve a 70%+ ATS keyword match score.",
+        "Produces professionally formatted, ATS-safe .docx files ready for immediate submission.",
+        "Provides users with clear feedback on what was changed and why via a match score and keyword list."
+      ],
+      "reflection": "This project was a deep dive into full-stack development with a modern Jamstack architecture. It highlighted the power of LLMs in solving practical user problems and the importance of robust prompt engineering to get reliable, structured output from AI. Implementing the fallback API pattern was a key learning in building resilient systems."
+    },
+    {
+      "slug": "parachute-consulting",
+      "title": "Parachute Consulting Solutions — Kinetic Minimalism Marketing Website",
+      "summary": "Leading the design and development of an 8-page marketing and lead generation website for an executive advisory firm, featuring a distinctive Kinetic Minimalism design direction with scroll-driven animations and full Sanity CMS control.",
+      "heroImage": {
+        "src": "/images/projects/pcs.png",
+        "alt": "Parachute Consulting Solutions website preview"
+      },
+      "video": "",
+      "meta": {
+        "role": "Full-Stack Engineer & Lead Consultant",
+        "environment": "Remote — Australia",
+        "duration": "March 2026 — Present",
+        "stack": [
+          "Next.js 14 (App Router)",
+          "TypeScript",
+          "Tailwind CSS",
+          "ShadCN UI",
+          "Framer Motion",
+          "Sanity IO",
+          "Vercel"
+        ]
+      },
+      "links": {
+        "live": "",
+        "repo": ""
+      },
+      "overview": {
+        "scope": "An 8-page marketing and lead generation website for an executive advisory firm, with the deliberate goal of converting the right visitors into direct conversations with the founder.",
+        "responsibility": "Leading design and development end-to-end, from information architecture to CMS implementation and motion design."
+      },
+      "problem": "The client needed a distinctive online presence that differentiates them from generic consulting firms, with complete control over all content post-launch without touching code.",
+      "constraints": [
+        "Must feature distinctive Kinetic Minimalism design direction",
+        "Full CMS control over all copy, navigation labels, form placeholders, and section content",
+        "Cover 4 service sectors: aviation, operations, culture, and safety",
+        "Scroll-driven animations throughout"
+      ],
+      "approach": "Designed the website with a focus on leading with the client's problem, positioning PCS as the answer, and introducing the founder as proof. Built a fully CMS-driven content architecture using Sanity IO with embedded studio for complete client control.",
+      "architecture": {
+        "frontend": "Next.js 14 App Router, TypeScript, Tailwind CSS, ShadCN UI",
+        "cms": "Sanity IO with embedded studio",
+        "animations": "Framer Motion for scroll-driven animations",
+        "deployment": "Vercel"
+      },
+      "execution": [
+        "Engineered homepage information hierarchy through multiple iterations to lead with the client's problem, position PCS as the answer, and introduce the founder as proof",
+        "Built fully CMS-driven content architecture using Sanity IO with embedded studio",
+        "Implemented Kinetic Minimalism design direction with scroll-driven animations using Framer Motion",
+        "Created responsive layouts covering 4 service sectors: aviation, operations, culture, and safety"
+      ],
+      "outcomes": [
+        "Gave client complete control over all copy, navigation labels, form placeholders, and section content post-launch",
+        "Created distinctive visual identity that stands out from generic consulting firms",
+        "Improved how the brand reads to its target audience through deliberate information hierarchy"
+      ],
+      "reflection": "This project emphasized the importance of information architecture and content hierarchy in conversion-focused websites. Working with Sanity IO's embedded studio gave me deeper experience in headless CMS architecture and content modeling for marketing sites."
+    },
     {
       "slug": "smartretry",
       "title": "SmartRetry — Headless Fintech Marketing Platform",
@@ -340,7 +515,7 @@
       "title": "SOCA — AI-Powered Task Management System",
       "summary": "A full-stack task management web application that leverages generative AI to automatically break complex tasks into actionable subtasks, reducing cognitive overload and improving execution clarity.",
       "heroImage": {
-        "src": "/images/projects/soca.jpg",
+        "src": "/images/projects/soca.png",
         "alt": "SOCA AI-powered task management system preview"
       },
       "video": "https://drive.google.com/drive/folders/1YoTa4k7pIBPcGxaviBDypKibko2x6KB2",
@@ -400,7 +575,7 @@
       "title": "Library Course-Based Computer Usage Monitoring System",
       "summary": "Designed and built a desktop monitoring system that tracked computer usage by enrolled course, improving resource visibility and administrative efficiency within a university library environment.",
       "heroImage": {
-        "src": "/images/projects/library-monitoring.jpg",
+        "src": "/images/projects/library-monitoring.png",
         "alt": "Library computer monitoring system preview"
       },
       "video": "",
