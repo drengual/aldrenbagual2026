@@ -270,7 +270,7 @@ export default function Page() {
                       <SafeImage
                         src={item.image.src}
                         alt={item.image.alt}
-                        className="object-cover"
+                        className="object-cover object-top"
                         sizes="(max-width: 640px) 100vw, 220px"
                       />
                     ) : (
@@ -345,24 +345,21 @@ export default function Page() {
         </FadeIn>
       </Section>
 
-      {/* ABOUT */}
-      <Section id="about" title={home.about.title}>
-        <FadeIn>
-          <div className="rounded-xl border border-black/10 dark:border-white/08 bg-white/4 dark:bg-white/04 p-6 shadow-soft">
-            <p className="max-w-3xl text-black/75 dark:text-white/75">
-              {home.about.body}
-            </p>
-          </div>
-        </FadeIn>
-      </Section>
-
       {/* CTA + CONTACT */}
-      <Section id="contact" title={home.contact.title}>
+      <Section id="contact" title="">
         <FadeIn>
           <div className="rounded-xl border border-black/10 dark:border-white/08 bg-white/4 dark:bg-white/04 p-6 shadow-soft">
-            <h3 className="text-lg font-semibold text-black/92 dark:text-white/92">
-              {home.cta.title}
-            </h3>
+            <div className="flex flex-col sm:flex-row sm:items-baseline sm:justify-between gap-2">
+              <h3 className="text-lg font-semibold text-black/92 dark:text-white/92">
+                {home.cta.title}
+              </h3>
+              <a
+                href={`mailto:${home.contact.emailLabel}`}
+                className="text-sm text-[rgba(124,58,237,0.92)] hover:underline"
+              >
+                {home.contact.title}
+              </a>
+            </div>
             <p className="mt-2 max-w-2xl text-sm text-black/72 dark:text-white/72">
               {home.cta.body}
             </p>
@@ -384,7 +381,7 @@ export default function Page() {
                 {home.contact.body}
               </p>
               <a
-                className="mt-3 inline-flex items-center gap-2 text-sm font-medium text-black/92 dark:text-white/92 hover:opacity-90"
+                className="mt-3 inline-flex items-center gap-2 text-sm font-medium text-black/92 dark:text-white/92 hover:opacity-90 cursor-pointer"
                 href={`mailto:${home.contact.emailLabel}`}
               >
                 <Mail className="h-4 w-4 text-black/92 dark:text-white/92" />

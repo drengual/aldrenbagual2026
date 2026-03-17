@@ -28,7 +28,7 @@
   },
   "credibility": {
     "title": "Most recently led web & system delivery",
-    "body": "Full-Stack Engineer with 3+ years of progressive experience building and shipping production web platforms for international clients across fintech, aviation, and consulting. Progressed from freelance delivery to leading architecture and full project lifecycles remotely for clients in Australia, New Zealand, and Israel.",
+    "body": "Full-Stack Engineer with 3+ years of progressive experience building and shipping production web platforms for international clients across fintech, aviation, and consulting. Progressed from freelance delivery to leading architecture and full project lifecycles remotely for clients in Australia, New Zealand, and Israel. I care about building systems that are reliable, understandable, and actually used — reducing operational friction for teams and stakeholders.",
     "bullets": [
       "Served as lead engineer on multi-person dev teams across 3+ company websites",
       "Designed, built, and deployed full stack (Next.js, Headless WordPress, Supabase)",
@@ -248,10 +248,6 @@
       "VPS Configuration, SSH/SFTP, Cloudways, Vercel"
     ]
   },
-  "about": {
-    "title": "About",
-    "body": "Full-Stack Engineer with 3+ years of progressive experience building and shipping production web platforms for international clients across fintech, aviation, and consulting. I specialize in headless CMS architecture, Next.js, and cloud-based VPS deployments with a consistent record of 99%+ uptime."
-  },
   "cta": {
     "title": "Let's talk",
     "body": "I'm currently available for new opportunities. If you're looking for a reliable developer who can own delivery end-to-end, I'd love to connect.",
@@ -332,7 +328,7 @@
       "title": "Parachute Consulting Solutions — Kinetic Minimalism Marketing Website",
       "summary": "Leading the design and development of an 8-page marketing and lead generation website for an executive advisory firm, featuring a distinctive Kinetic Minimalism design direction with scroll-driven animations and full Sanity CMS control.",
       "heroImage": {
-        "src": "/images/projects/parachute.jpg",
+        "src": "/images/projects/pcs.png",
         "alt": "Parachute Consulting Solutions website preview"
       },
       "video": "",
