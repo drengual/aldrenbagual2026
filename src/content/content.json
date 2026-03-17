@@ -148,7 +148,7 @@
         "title": "SOCA — AI-Powered Task Management System",
         "tech": "Python, AI/ML, Desktop Application",
         "description": "BS Information Technology thesis. An AI-driven task management system that intelligently prioritises and organises tasks based on user behaviour and workload patterns.",
-        "link": "https://aldrenbagual.vercel.app/work/soca"
+        "link": "/work/soca"
       }
     ]
   },
