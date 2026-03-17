@@ -39,11 +39,6 @@ export default function Page() {
                   {home.hero.subheadline}
                 </p>
 
-                <p className="mt-3 max-w-2xl text-sm leading-relaxed text-[rgba(255,255,255,0.6)]">
-                  with 3+ years of experience building, deploying, and
-                  maintaining production web platforms and internal systems
-                </p>
-
                 <a
                   href={`mailto:${home.hero.email}`}
                   className="mt-4 inline-flex items-center gap-2 text-sm font-medium text-[rgba(124,58,237,0.92)] hover:text-[rgba(124,58,237,1)]"
@@ -173,6 +168,92 @@ export default function Page() {
           ))}
         </div>
       </Section>
+
+      {/* FREELANCE & CONTRACT PROJECTS */}
+      {home.freelanceProjects && (
+        <Section id="freelance" title={home.freelanceProjects.title}>
+          <div className="space-y-4">
+            {home.freelanceProjects.projects.map((r, idx) => (
+              <FadeIn key={`${r.company}-${r.title}`} delay={idx * 0.05}>
+                <div className="rounded-xl border border-black/10 dark:border-white/08 bg-white/4 dark:bg-white/04 p-6 shadow-soft">
+                  <div className="flex flex-col gap-2 sm:flex-row sm:items-baseline sm:justify-between">
+                    <div>
+                      <h3 className="text-base font-semibold text-black/92 dark:text-white/92">
+                        {r.title}
+                      </h3>
+                      <p className="mt-1 text-sm text-black/70 dark:text-white/70">
+                        {r.company}
+                      </p>
+                    </div>
+
+                    <div className="flex items-center gap-3">
+                      {r.link && (
+                        <a
+                          href={r.link}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="text-sm text-[rgba(124,58,237,0.92)] hover:underline"
+                        >
+                          Visit Site
+                        </a>
+                      )}
+                      <p className="text-sm text-black/60 dark:text-white/60">
+                        {r.date}
+                      </p>
+                    </div>
+                  </div>
+
+                  <ul className="mt-4 space-y-2 text-sm text-black/75 dark:text-white/75">
+                    {r.highlights.map((h) => (
+                      <li key={h} className="flex gap-2">
+                        <span className="mt-1.75 h-1.5 w-1.5 shrink-0 rounded-full bg-[rgba(124,58,237,0.8)]" />
+                        <span>{h}</span>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              </FadeIn>
+            ))}
+          </div>
+        </Section>
+      )}
+
+      {/* PERSONAL PROJECTS */}
+      {home.personalProjects && (
+        <Section id="personal-projects" title={home.personalProjects.title}>
+          <div className="space-y-4">
+            {home.personalProjects.projects.map((p, idx) => (
+              <FadeIn key={p.title} delay={idx * 0.05}>
+                <div className="rounded-xl border border-black/10 dark:border-white/08 bg-white/4 dark:bg-white/04 p-6 shadow-soft">
+                  <div className="flex flex-col gap-2 sm:flex-row sm:items-baseline sm:justify-between">
+                    <div>
+                      <h3 className="text-base font-semibold text-black/92 dark:text-white/92">
+                        {p.title}
+                      </h3>
+                      <p className="mt-1 text-sm font-medium text-[rgba(124,58,237,0.92)]">
+                        {p.tech}
+                      </p>
+                    </div>
+                    {p.link && (
+                      <a
+                        href={p.link}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-sm text-black/60 dark:text-white/60 hover:text-[rgba(124,58,237,0.92)] flex items-center gap-1"
+                      >
+                        View <ArrowRight className="h-3.5 w-3.5" />
+                      </a>
+                    )}
+                  </div>
+                  <p className="mt-3 text-sm text-black/75 dark:text-white/75">
+                    {p.description}
+                  </p>
+                </div>
+              </FadeIn>
+            ))}
+          </div>
+        </Section>
+      )}
 
       {/* WORK */}
       <Section id="work" title={home.work.title}>
